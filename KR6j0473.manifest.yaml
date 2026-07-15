@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0473/v1
 canonical_location: https://kanripo.org/bkk/KR6j0473/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說毘沙門天王經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0473_000.yaml, hash: 'sha256:31b9969062378612525707c0bb9e2c12e89dc40a68c6e1c44f8ce1a511712545'}
-  - {seq: 1, filename: KR6j0473_001.yaml, hash: 'sha256:ab2ec9d1f0539d3c3a812af41bcf94bacbe356a0db5d1e7e907aa448dba0023d'}
+  - {seq: 1, filename: KR6j0473_001.yaml, hash: 'sha256:ae4acfe159e1ec80252c1435c2331defdf5b3f9444b77822f4533dc4a4041878'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0473_000.markers.yaml, hash: 'sha256:c7a5f0fa045402fc92f1aa7ae4109399b69c7595ae906f6c0d21d0f6e18d200d'}
-  - {seq: 1, role: markers, filename: assets/KR6j0473_001.markers.yaml, hash: 'sha256:a1d141ac1552738599b01562f0c2d1f5681d6712bd72375125fd3158080539d0'}
+  - {seq: 1, role: markers, filename: assets/KR6j0473_001.markers.yaml, hash: 'sha256:7af6ce6ad359deff478f8ebf8cb524c2b74867c1680f9bb8b39a18e7c756fc1d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說毘沙門天王經
   type: juan
   level: 1
-hash: sha256:3c4168d9519790a069891edfcfa4d52e3b0956edc354d6f1c5e23acc6f197de6
+hash: sha256:99a0edc807d49592e9b1d01288523d9de77313e9e43fa8c5cd0dae0bb8168402
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
